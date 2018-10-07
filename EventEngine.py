@@ -1,34 +1,38 @@
+import sys
+import EventsQueue as ev
 from queue import Queue
-eventQueue = SimpleQueue()
-eventsDone = SimpleQueue()
 
+eventList = ev.DoubleLinkedList()
+tick = 0
 
-class Event:
-	def __init__(self, time, handler, task):
-		self.time = time
-		self.handler = handler
-		self.task = task
-		self.done = False
-		
-	def done(self):
-		self.done = True
+def initialize_program(file_name):
+	# Read file
+	file = open(file_name, "r")
+	file_lines = file.readlines()
+	return file_lines
 
+	# Empt queue
+	while not eventList.empty():
+		eventList.get(False)
 
-def main():
-	# Add initial events and set tick
-	while not eventQueue.empty():
-		eventQueue.get(False)
-	eventQueue.put(Event(1, 'EVENT_1', "Task 1"))
-	eventQueue.put(Event(2, 'EVENT_2', "Task 2"))
-	eventQueue.put(Event(3, 'EVENT_3', "Task 3"))
-	eventQueue.put(Event(4, 'EVENT_4', "Task 4"))
+	# Add initial events
+	eventList.add_in_time_order(Node(Event(1, 'EVENT_1', "Task 1")))
+	eventList.add_in_time_order(Node(Event(2, 'EVENT_2', "Task 2")))
+	eventList.add_in_time_order(Node(Event(3, 'EVENT_3', "Task 3")))
+	eventList.add_in_time_order(Node(Event(4, 'EVENT_4', "Task 4")))
+
+	# Sets tick to 0
 	tick = 0
 
+
+def main(file_name):
+	initialize_program(file_name)
+events_list
 	# Handle the events
 	while True:
-		if eventQueue.empty():
+		if eventList.empty():
 			break
-		event = eventQueue.get(False)
+		event = eventList.get(False)
 		if event is None:
 			break
 		tick = event.time
@@ -43,4 +47,5 @@ def main():
 		
 
 if __name__ == "__main__":
-	main()
+	file_name = sys.argv[1]
+	main(file_name)
