@@ -1,0 +1,903 @@
+1.  Arquivo {'file_path': '../programas_teste/bubbleSort.bs'}
+
+readFile 	Line: 000 DIM A (10)
+readFile 	Line: 010 LET N = 10
+readFile 	Line: 020 FOR I=0 TO N-1
+readFile 	Line: 030 READ A(I)
+readFile 	Line: 040 NEXT I
+readFile 	Line: 050 DATA 2.0, 2.5, 1.8, 1.0, 0.8, 3.1, 3.5, 2.9, 2.7, 1.3 060 FOR I=N-1 TO 0 STEP -1
+readFile 	Line: 070 FOR J=0 TO I-1
+readFile 	Line: 080 IF A(J) > A(J+1) THEN 100
+readFile 	Line: 090 GOTO 130
+readFile 	Line: 100 LET X = A(J)
+readFile 	Line: 110 LET A(J) = A(J+1)
+readFile 	Line: 120 LET A(J+1) = X
+readFile 	Line: 130 NEXT J
+readFile 	Line: 140 NEXT I
+readFile 	Line: 150 PRINT A
+
+
+1.  Linha {'line': '000 DIM A (10)\n'}
+2.  Linha {'line': '010 LET N = 10\n'}
+3.  Linha {'line': '020 FOR I=0 TO N-1\n'}
+4.  Linha {'line': '030 READ A(I)\n'}
+5.  Linha {'line': '040 NEXT I\n'}
+6.  Linha {'line': '050 DATA 2.0, 2.5, 1.8, 1.0, 0.8, 3.1, 3.5, 2.9, 2.7, 1.3 060 FOR I=N-1 TO 0 STEP -1\n'}
+7.  Linha {'line': '070 FOR J=0 TO I-1\n'}
+8.  Linha {'line': '080 IF A(J) > A(J+1) THEN 100\n'}
+9.  Linha {'line': '090 GOTO 130\n'}
+10.  Linha {'line': '100 LET X = A(J)\n'}
+11.  Linha {'line': '110 LET A(J) = A(J+1)\n'}
+12.  Linha {'line': '120 LET A(J+1) = X\n'}
+13.  Linha {'line': '130 NEXT J\n'}
+14.  Linha {'line': '140 NEXT I\n'}
+15.  Linha {'line': '150 PRINT A'}
+
+
+1.  Linha {'line': '010 LET N = 10\n'}
+2.  Linha {'line': '020 FOR I=0 TO N-1\n'}
+3.  Linha {'line': '030 READ A(I)\n'}
+4.  Linha {'line': '040 NEXT I\n'}
+5.  Linha {'line': '050 DATA 2.0, 2.5, 1.8, 1.0, 0.8, 3.1, 3.5, 2.9, 2.7, 1.3 060 FOR I=N-1 TO 0 STEP -1\n'}
+6.  Linha {'line': '070 FOR J=0 TO I-1\n'}
+7.  Linha {'line': '080 IF A(J) > A(J+1) THEN 100\n'}
+8.  Linha {'line': '090 GOTO 130\n'}
+9.  Linha {'line': '100 LET X = A(J)\n'}
+10.  Linha {'line': '110 LET A(J) = A(J+1)\n'}
+11.  Linha {'line': '120 LET A(J+1) = X\n'}
+12.  Linha {'line': '130 NEXT J\n'}
+13.  Linha {'line': '140 NEXT I\n'}
+14.  Linha {'line': '150 PRINT A'}
+15.  Char {'char': '0'}
+16.  Char {'char': '0'}
+17.  Char {'char': '0'}
+18.  Char {'char': ' '}
+19.  Char {'char': 'D'}
+20.  Char {'char': 'I'}
+21.  Char {'char': 'M'}
+22.  Char {'char': ' '}
+23.  Char {'char': 'A'}
+24.  Char {'char': ' '}
+25.  Char {'char': '('}
+26.  Char {'char': '1'}
+27.  Char {'char': '0'}
+28.  Char {'char': ')'}
+29.  Char {'char': '\n'}
+
+
+286.  Char {'char': '1'}
+287.  Char {'char': '5'}
+288.  Char {'char': '0'}
+289.  Char {'char': ' '}
+290.  Char {'char': 'P'}
+291.  Char {'char': 'R'}
+292.  Char {'char': 'I'}
+293.  Char {'char': 'N'}
+294.  Char {'char': 'T'}
+295.  Char {'char': ' '}
+296.  Char {'char': 'A'}
+297.  ClassificaçãoDeChar {'char': '0', 'char_type': 'útil', 'char_class': 'dígito'}
+298.  ClassificaçãoDeChar {'char': '0', 'char_type': 'útil', 'char_class': 'dígito'}
+299.  ClassificaçãoDeChar {'char': '0', 'char_type': 'útil', 'char_class': 'dígito'}
+300.  ClassificaçãoDeChar {'char': 'espaço', 'char_type': 'descartável', 'char_class': 'delimitador'}
+301.  ClassificaçãoDeChar {'char': 'D', 'char_type': 'útil', 'char_class': 'letra'}
+302.  ClassificaçãoDeChar {'char': 'I', 'char_type': 'útil', 'char_class': 'letra'}
+303.  ClassificaçãoDeChar {'char': 'M', 'char_type': 'útil', 'char_class': 'letra'}
+304.  ClassificaçãoDeChar {'char': 'espaço', 'char_type': 'descartável', 'char_class': 'delimitador'}
+305.  ClassificaçãoDeChar {'char': 'A', 'char_type': 'útil', 'char_class': 'letra'}
+306.  ClassificaçãoDeChar {'char': 'espaço', 'char_type': 'descartável', 'char_class': 'delimitador'}
+307.  ClassificaçãoDeChar {'char': '(', 'char_type': 'útil', 'char_class': 'especial'}
+308.  ClassificaçãoDeChar {'char': '1', 'char_type': 'útil', 'char_class': 'dígito'}
+309.  ClassificaçãoDeChar {'char': '0', 'char_type': 'útil', 'char_class': 'dígito'}
+310.  ClassificaçãoDeChar {'char': ')', 'char_type': 'útil', 'char_class': 'especial'}
+311.  ClassificaçãoDeChar {'char': 'EOL', 'char_type': 'controle', 'char_class': 'controle'}
+
+
+278.  ClassificaçãoDeChar {'char': 'P', 'char_type': 'útil', 'char_class': 'letra'}
+279.  ClassificaçãoDeChar {'char': 'R', 'char_type': 'útil', 'char_class': 'letra'}
+280.  ClassificaçãoDeChar {'char': 'I', 'char_type': 'útil', 'char_class': 'letra'}
+281.  ClassificaçãoDeChar {'char': 'N', 'char_type': 'útil', 'char_class': 'letra'}
+282.  ClassificaçãoDeChar {'char': 'T', 'char_type': 'útil', 'char_class': 'letra'}
+283.  ClassificaçãoDeChar {'char': 'espaço', 'char_type': 'descartável', 'char_class': 'delimitador'}
+284.  ClassificaçãoDeChar {'char': 'A', 'char_type': 'útil', 'char_class': 'letra'}
+285.  Token {'token': '000', 'token_type': 'inteiro'}
+286.  Token {'token': 'DIM', 'token_type': 'texto'}
+287.  Token {'token': 'A', 'token_type': 'texto'}
+288.  Token {'token': '(', 'token_type': 'especial'}
+289.  Token {'token': '10', 'token_type': 'inteiro'}
+
+
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: D			Tipo: útil			Classe: letra
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: M			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: L			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 2			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: F			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: R			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: -			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 3			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: R			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: D			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 4			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: X			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 5			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: D			Tipo: útil			Classe: letra
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 2			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 2			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 5			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 8			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 8			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 3			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 3			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 5			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 2			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 9			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 2			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 7			Tipo: útil			Classe: dígito
+charClassifier 	Char: ,			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: .			Tipo: útil			Classe: especial
+charClassifier 	Char: 3			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 6			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: F			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: R			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: -			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: S			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: P			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: -			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 7			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: F			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: R			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: -			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 8			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: F			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: >			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: +			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: H			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 9			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: G			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: O			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 3			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: L			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: X			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: L			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: +			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 2			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: L			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+charClassifier 	Char: (			Tipo: útil			Classe: especial
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: +			Tipo: útil			Classe: especial
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: )			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: =			Tipo: útil			Classe: especial
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: X			Tipo: útil			Classe: letra
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 3			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: X			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: J			Tipo: útil			Classe: letra
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 4			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: E			Tipo: útil			Classe: letra
+charClassifier 	Char: X			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: EOL		Tipo: controle		Classe: controle
+charClassifier 	Char: 1			Tipo: útil			Classe: dígito
+charClassifier 	Char: 5			Tipo: útil			Classe: dígito
+charClassifier 	Char: 0			Tipo: útil			Classe: dígito
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: P			Tipo: útil			Classe: letra
+charClassifier 	Char: R			Tipo: útil			Classe: letra
+charClassifier 	Char: I			Tipo: útil			Classe: letra
+charClassifier 	Char: N			Tipo: útil			Classe: letra
+charClassifier 	Char: T			Tipo: útil			Classe: letra
+charClassifier 	Char: espaço	Tipo: descartável	Classe: delimitador
+charClassifier 	Char: A			Tipo: útil			Classe: letra
+
+Token: 000	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 0	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: DIM	 Tipo: texto
+Token: DIM	 Classe: reservada
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: 10	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: 010	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 1	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: LET	 Tipo: texto
+Token: LET	 Classe: reservada
+
+Token: N	 Tipo: texto
+Token: N	 Classe: letter
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: 10	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: 020	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 2	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: FOR	 Tipo: texto
+Token: FOR	 Classe: reservada
+
+Token: I	 Tipo: texto
+Token: I	 Classe: letter
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: 0	 Tipo: inteiro
+Token: 0	 Classe: digit
+
+Token: TO	 Tipo: texto
+Token: TO	 Classe: reservada
+
+Token: N	 Tipo: texto
+Token: N	 Classe: letter
+
+Token: -	 Tipo: especial
+Token: -	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: 030	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 3	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: READ	 Tipo: texto
+Token: READ	 Classe: reservada
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: I	 Tipo: texto
+Token: I	 Classe: letter
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: 040	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 4	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: NEXT	 Tipo: texto
+Token: NEXT	 Classe: reservada
+
+Token: I	 Tipo: texto
+Token: I	 Classe: letter
+
+Token: 050	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 5	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: DATA	 Tipo: texto
+Token: DATA	 Classe: reservada
+
+Token: 2	 Tipo: inteiro
+Token: 2	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 0	 Tipo: inteiro
+Token: 0	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 2	 Tipo: inteiro
+Token: 2	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 5	 Tipo: inteiro
+Token: 5	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 8	 Tipo: inteiro
+Token: 8	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 0	 Tipo: inteiro
+Token: 0	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 0	 Tipo: inteiro
+Token: 0	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 8	 Tipo: inteiro
+Token: 8	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 3	 Tipo: inteiro
+Token: 3	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 3	 Tipo: inteiro
+Token: 3	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 5	 Tipo: inteiro
+Token: 5	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 2	 Tipo: inteiro
+Token: 2	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 9	 Tipo: inteiro
+Token: 9	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 2	 Tipo: inteiro
+Token: 2	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 7	 Tipo: inteiro
+Token: 7	 Classe: digit
+
+Token: ,	 Tipo: especial
+Token: ,	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: .	 Tipo: especial
+Token: .	 Classe: especial
+
+Token: 3	 Tipo: inteiro
+Token: 3	 Classe: digit
+
+Token: 060	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 6	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: FOR	 Tipo: texto
+Token: FOR	 Classe: reservada
+
+Token: I	 Tipo: texto
+Token: I	 Classe: letter
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: N	 Tipo: texto
+Token: N	 Classe: letter
+
+Token: -	 Tipo: especial
+Token: -	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: TO	 Tipo: texto
+Token: TO	 Classe: reservada
+
+Token: 0	 Tipo: inteiro
+Token: 0	 Classe: digit
+
+Token: STEP	 Tipo: texto
+Token: STEP	 Classe: reservada
+
+Token: -	 Tipo: especial
+Token: -	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: 070	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 7	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: FOR	 Tipo: texto
+Token: FOR	 Classe: reservada
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: 0	 Tipo: inteiro
+Token: 0	 Classe: digit
+
+Token: TO	 Tipo: texto
+Token: TO	 Classe: reservada
+
+Token: I	 Tipo: texto
+Token: I	 Classe: letter
+
+Token: -	 Tipo: especial
+Token: -	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: 080	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 8	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: IF	 Tipo: texto
+Token: IF	 Classe: reservada
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: >	 Tipo: especial
+Token: >	 Classe: especial
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: +	 Tipo: especial
+Token: +	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: THEN	 Tipo: texto
+Token: THEN	 Classe: reservada
+
+Token: 100	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 0	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: 090	 Tipo: inteiro
+Token: 0	 Classe: digit
+Token: 9	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: GOTO	 Tipo: texto
+Token: GOTO	 Classe: reservada
+
+Token: 130	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 3	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: 100	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 0	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: LET	 Tipo: texto
+Token: LET	 Classe: reservada
+
+Token: X	 Tipo: texto
+Token: X	 Classe: letter
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: 110	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 1	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: LET	 Tipo: texto
+Token: LET	 Classe: reservada
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: +	 Tipo: especial
+Token: +	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: 120	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 2	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: LET	 Tipo: texto
+Token: LET	 Classe: reservada
+
+Token: A	 Tipo: texto
+Token: A	 Classe: letter
+
+Token: (	 Tipo: especial
+Token: (	 Classe: especial
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: +	 Tipo: especial
+Token: +	 Classe: especial
+
+Token: 1	 Tipo: inteiro
+Token: 1	 Classe: digit
+
+Token: )	 Tipo: especial
+Token: )	 Classe: especial
+
+Token: =	 Tipo: especial
+Token: =	 Classe: especial
+
+Token: X	 Tipo: texto
+Token: X	 Classe: letter
+
+Token: 130	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 3	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: NEXT	 Tipo: texto
+Token: NEXT	 Classe: reservada
+
+Token: J	 Tipo: texto
+Token: J	 Classe: letter
+
+Token: 140	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 4	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: NEXT	 Tipo: texto
+Token: NEXT	 Classe: reservada
+
+Token: I	 Tipo: texto
+Token: I	 Classe: letter
+
+Token: 150	 Tipo: inteiro
+Token: 1	 Classe: digit
+Token: 5	 Classe: digit
+Token: 0	 Classe: digit
+
+Token: PRINT Tipo: texto
+Token: PRINT Classe: reservada
